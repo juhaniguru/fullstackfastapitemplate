@@ -9,7 +9,7 @@ from sqlalchemy.ext.declarative import declarative_base
 Base = declarative_base()
 metadata = Base.metadata
 
-engine = create_engine('mysql+mysqlconnector://root:@localhost/fullstack3002mvp')
+engine = create_engine('mysql+mysqlconnector://root:@localhost/fullstack3001mvp')
 SessionLocal = sessionmaker(autoflush=False, autocommit=False, bind=engine)
 
 
